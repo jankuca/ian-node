@@ -1,0 +1,17 @@
+{
+  "name": "ian-node",
+  "version": "0.1.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "~1.16.2"
+  },
+  "scripts": {
+    "test": "mocha -R spec -r test/_globals --check-leaks"
+  }
+}
